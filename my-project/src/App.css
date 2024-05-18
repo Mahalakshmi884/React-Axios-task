@@ -1,0 +1,92 @@
+
+
+/* General styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+.Container {
+  padding: 20px;
+}
+
+/* Typography */
+h4 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Paper component styles */
+.MuiPaper-root {
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+
+/* Form styles */
+.MuiTextField-root {
+  margin-bottom: 20px;
+}
+
+.MuiButton-root {
+  margin-right: 10px;
+}
+
+/* List styles */
+.MuiList-root {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.MuiListItem-root {
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+}
+
+.MuiListItem-root:hover {
+  background-color: #f1f1f1;
+}
+
+.MuiListItemText-primary {
+  font-size: 18px;
+}
+
+.MuiListItemText-secondary {
+  font-size: 14px;
+  color: #666;
+}
+
+.MuiListItemSecondaryAction-root {
+  display: flex;
+  align-items: center;
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+  .MuiPaper-root {
+    padding: 15px;
+  }
+
+  .MuiTextField-root {
+    margin-bottom: 15px;
+  }
+
+  .MuiButton-root {
+    margin-right: 5px;
+  }
+
+  .MuiListItem-root {
+    padding: 10px 15px;
+  }
+
+  .MuiListItemText-primary {
+    font-size: 16px;
+  }
+
+  .MuiListItemText-secondary {
+    font-size: 12px;
+  }
+}
